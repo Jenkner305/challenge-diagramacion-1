@@ -1,0 +1,181 @@
+*, 
+* ::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #D4D4D8;
+    margin: 150px;
+    margin-top: 30vh;
+}
+
+.container{
+    background-color: #fafaf9f0;
+    width: 1280px;
+    height: 1200px;
+    flex-direction: column;
+    row-gap: 10px;
+
+    
+    
+}
+
+.seccion{
+    position: absolute;
+    top: 80%;
+    margin: 100px;
+} 
+
+
+.container * span {
+    font-size: 36px;
+    font-family: 'sora', sans-serif;
+    font-weight: bold;
+   
+   
+    
+}
+
+.descripccion{
+    color: #52525A;
+    font-size: 20px;
+    font-family:'sora', sans-serif;
+    width: 48%;
+    
+
+}
+
+.descripccion > p{
+    line-height: 35px;
+   
+
+    
+}
+
+.lista * li {
+    list-style: none;
+     line-height: 37px;
+    
+
+}
+
+
+.contenedor{
+   float:right;
+   background-color:#FFFFFF;
+   margin-top: 70vh;
+   position: relative;
+   left: -170px;
+   height: 170px;
+   border-radius: 10px;
+   width: 300px;
+    
+    
+
+   
+   
+}
+
+.google{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+
+.subtitulo * span{
+    font-size: 16px;
+    margin: 29px;
+    margin-bottom: 20px;
+}
+
+.til{
+    margin-bottom: -12px;
+}
+
+.sub {
+    font-family: 'sora', sans-serif;
+    color: #52525A;
+    margin: 29px;
+    line-height: 20px;
+   
+}
+
+.contenedor-2{
+    float:right;
+    background-color:#FFFFFF;
+    margin-top: 107vh;
+    position: relative;
+    left: -10px;
+    height: 180px;
+    border-radius: 10px;
+    width: 320px;
+     
+     
+}
+
+.meta{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.subtitulo-2 * span{
+    font-size: 16px;
+    margin: 29px;
+    margin-bottom: 20px;
+}
+
+.til-2{
+    margin-bottom: -12px;
+}
+
+.sub-2 {
+    font-family: 'sora', sans-serif;
+    color: #52525A;
+    margin: 29px;
+    line-height: 20px;
+    font-size: 15px;
+   
+}
+
+
+@media only screen and (max-width: 640px) {
+    body {
+        margin: 50px;
+        margin-top: 10vh;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .seccion {
+        position: static;
+        margin: 50px 0;
+    }
+
+    .descripccion {
+        width: 100%;
+    }
+
+    .contenedor,
+    .contenedor-2 {
+        float: none;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+        left: auto;
+        width: 90%;
+    }
+}
+
